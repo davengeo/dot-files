@@ -35,7 +35,7 @@ alias rm='rm -i'
 alias beep="echo -e '\a'"
 alias pgrep='ps aux | grep'
 alias gs='git status'
-
+alias hgrep='history | grep'
 
 
 
