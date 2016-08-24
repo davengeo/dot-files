@@ -76,7 +76,11 @@ if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
 fi
 
-
+GIT_PROMPT_ONLY_IN_REPO=1
+if [[ "$(uname)" == "Darwin" ]]; then  
+    source ~/.bash-git-prompt/gitprompt.sh
+else
+fi        
 
 
 
